@@ -10,7 +10,6 @@ import (
 	"strings"
 
 	"github.com/kardianos/osext"
-	"github.com/kardianos/service"
 )
 
 type RProxy struct {

@@ -14,6 +14,10 @@ RProxyd using ./rproxyd as its config file, and supported commands as follows:
 
   > proxy rule, `proxy /api  http://127.0.0.1:15000/` for example
 
+## Build
+
+`>go build rproxyd.go`
+
 ## Service
 
 You can use [NSSM](http://www.nssm.cc/) to let rproxyd run as a windows service.
