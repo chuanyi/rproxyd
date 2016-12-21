@@ -12,7 +12,9 @@ RProxyd using ./rproxyd as its config file, and supported commands as follows:
 
 + proxy /route  http://ip:port
 
-  > proxy rule, `proxy /api  http://127.0.0.1:15000/` for example
+  > proxy rule, `proxy /api  http://127.0.0.1:15000/` for example.
+  >
+  > RProxyd will try to match-router-rule one by one, if failed, return 404. 
 
 ## Build
 
